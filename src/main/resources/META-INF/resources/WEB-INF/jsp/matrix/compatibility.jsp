@@ -30,7 +30,7 @@
                     <td>
                         <ul class="nice">
                             <c:forEach items="${row.dev}" var="version">
-                                <li><ui:compatible-result version="${version}" branch="trunk" /></li>
+                                <li><ui:compatible-result version="${version}" branch="trunkanton" /></li>
                             </c:forEach>
                         </ul>
                     </td>
@@ -40,7 +40,7 @@
                     <c:if test="${!empty row.qa}">
                         <ul class="nice">
                             <c:forEach items="${row.qa}" var="version">
-                                <li><ui:compatible-result version="${version}" branch="qa" /></li>
+                                <li><ui:compatible-result version="${version}" branch="qaanton" /></li>
                             </c:forEach>
                         </ul>
                     </c:if>
@@ -50,7 +50,7 @@
                     <c:if test="${!empty row.production}">
                         <ul class="nice">
                             <c:forEach items="${row.production}" var="version">
-                                <li><ui:compatible-result version="${version}" branch="production" /></li>
+                                <li><ui:compatible-result version="${version}" branch="productionanton" /></li>
                             </c:forEach>
                         </ul>
                     </c:if>
