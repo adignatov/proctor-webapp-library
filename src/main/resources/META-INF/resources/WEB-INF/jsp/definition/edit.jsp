@@ -22,7 +22,7 @@
 <%--@elvariable id="specialConstants" type="java.util.Map<String, Object>"--%>
 
 
-<layout:base title="${testName} | Proctor" session="${session}">
+<layout:base title="${testName} | Proctor ANTON" session="${session}">
 
     <c:choose>
         <c:when test="${isCreate}">
@@ -61,16 +61,16 @@
 
                 <ui:grid-row>
                     <ui:grid-columns width="two">
-                        <label class="right inline">Description</label>
+                        <label class="right inline">Description ANTON </label>
                     </ui:grid-columns>
                     <ui:grid-columns width="ten">
-                        <input class="json" name="description" type="text" placeholder="e.g. [ISSUE] - Description"
+                        <input class="json" name="description" type="text" placeholder="e.g. [ISSUE] - Description asdasd"
                                value="${fn:escapeXml(testDefinition.description)}"/>
                     </ui:grid-columns>
                 </ui:grid-row>
                 <ui:grid-row>
                     <ui:grid-columns width="two">
-                        <label class="right inline">Test Type</label>
+                        <label class="right inline">Test Type ANTON</label>
                     </ui:grid-columns>
                     <c:if test="${!isCreate}">
                         <ui:grid-columns width="eight">

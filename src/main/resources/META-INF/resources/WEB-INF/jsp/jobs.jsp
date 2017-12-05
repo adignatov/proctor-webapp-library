@@ -14,7 +14,7 @@
     </ui:expand-collapse>
     <table class="w100">
         <thead>
-            <tr><th>JobId</th><th>JobUUID</th></th><th>Status</th><th>Description</th></tr>
+            <tr><th>JobId</th><th>JobUUID</th></th><th>Status</th><th>Description ANTON</th></tr>
         </thead>
         <tbody>
         <c:forEach items="${jobs}" var="job" varStatus="loopStatus">

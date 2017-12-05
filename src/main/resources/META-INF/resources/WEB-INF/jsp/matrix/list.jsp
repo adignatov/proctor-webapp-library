@@ -21,10 +21,10 @@
                     <select class="js-filter-type">
                         <option value="all" selected="selected">Any field</option>
                         <option value="testName">Test name</option>
-                        <option value="description">Description</option>
+                        <option value="description">Description Anton</option>
                         <option value="rule">Rule</option>
                         <option value="bucket">Bucket name</option>
-                        <option value="bucketDescription">Bucket description</option>
+                        <option value="bucketDescription">Bucket description asd as </option>
                     </select>
                 </label>
             </ui:grid-columns>

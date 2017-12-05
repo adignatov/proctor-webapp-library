@@ -20,9 +20,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/indeedeng/proctor-webapp-library</url>
-        <connection>scm:git:https://github.com/indeedeng/proctor-webapp-library.git</connection>
-        <developerConnection>scm:git:git@github.com:indeedeng/proctor-webapp-library.git</developerConnection>
+        <url>https://github.com/adignatov/proctor-webapp-library</url>
+        <connection>scm:git:https://github.com/adignatov/proctor-webapp-library.git</connection>
+        <developerConnection>scm:git:git@github.com:adignatov/proctor-webapp-library.git</developerConnection>
     </scm>
 
     <pluginRepositories>
